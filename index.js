@@ -4,8 +4,6 @@ app.get('/', (req, res) => res.send('Bot is Online!'));
 app.listen(process.env.PORT || 3000);
 
 
-require("dotenv").config();
-
 const {
   Client,
   GatewayIntentBits,
